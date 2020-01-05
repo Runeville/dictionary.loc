@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    background-color: #71C1FF;
+    font-family: 'Roboto', sans-serif;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+input {
+    max-width: 150px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+hr{
+    background-color: white;
+    opacity: 0.4;
+    border: 0;
+    height: 2px;
+}
+
+/*==============================================================================*/
+
+.form {
+    display: flex;
+}
+
+.form_item {
+    margin: auto 0;
+    padding-right: 60px;
+}
+
+.btn {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    border: 0;
+    background-color: #53A0FF;
+    padding: 15px;
+    opacity: 0.85;
+    margin: 15px 0;
+    cursor: pointer;
+    transition: background 0.1s linear;
+}
+
+.btn:hover{
+    background-color: #111EFF;
+}
+
+.delete--btn{
+    color: white;
+    background-color: #53A0FF;
+    text-decoration: none;
+    padding: 8px 25px;
+    opacity: 0.85;
+    border-radius: 12px;
+    cursor: pointer;
+    float: right;
+    margin-top: -8px;
+
+    transition: background 0.1s linear;
+}
+
+.delete--btn:hover{
+    background-color: #111EFF;
+}
+
+.search{
+    float: right;
+    margin-top: -36px;
+}
